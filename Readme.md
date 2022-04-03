@@ -6,16 +6,16 @@ This project is built using maven tool for its simplicity of use w.r.t downloadi
 
 ## PreRequisite
 
-- JAVA SDK latest version
+- JAVA SDK 1.8 - Configure your Eclipse to use same
 - Android studio with emulator and devices created in it.
 - Run a device from android emulator
 - Set environment variable ANDROID_HOME, JAVA_HOME
-- Start appium server in local
+- Start appium server in local. Install it from https://appium.io/
 
 ## How to run
 - Import the project as Maven project in eclipse
-- Open src/main/java/materialLogin/MaterialLoginSignInTest.java
-- Right click the file and Run as> TestNG Test
+- Right click the file and Run as> mvn install
+- Right click the file and Run as> mvn test
 
 ## What this project does
 - Loads the app MaterialLoginExample.apk
